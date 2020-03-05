@@ -1,5 +1,5 @@
 $("#container").mousemove(function(e) {
-    parallaxIt(e, ".slie", -100);
+    parallaxIt(e, ".slide", -100);
     parallaxIt(e, "clqn.jpg", -30);
 });
 
