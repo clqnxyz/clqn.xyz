@@ -1,6 +1,6 @@
 $("#container").mousemove(function(e) {
     parallaxIt(e, ".slide", -100);
-    parallaxIt(e, "clqn.jpg", -30);
+    parallaxIt(e, "file:/C:/Users/Seagh/Documents/clqn.jpg", -30);
 });
 
 function parallaxIt(e, target, movement) {
@@ -15,3 +15,4 @@ function parallaxIt(e, target, movement) {
     $this.height() * movement
     });
 }
+document.getElementById("trythis").innerHTML = htmlString;
