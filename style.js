@@ -1,6 +1,6 @@
 $("#container").mousemove(function(e) {
     parallaxIt(e, ".slie", -100);
-    parallaxIt(e, "img", -30);
+    parallaxIt(e, "clqn.jpg", -30);
 });
 
 function parallaxIt(e, target, movement) {
